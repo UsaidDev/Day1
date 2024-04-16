@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 40px;
+    width: auto;
+    background-color: #F7F7FF;
+}
+form{
+    width: 400px;
+    border-radius: 10px;
+    background-color: #CF9FFF;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+form h3{
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#firstname{
+    height: 35px;
+    outline: none;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    width: 45%;
+}
+input::placeholder{
+    font-size: 13px;
+    font-family: sans-serif;
+}
+#secondname{
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    width: 45%;
+}
+#email{
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    width: 95%;
+    margin: 10px;
+}
+#password{
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    width: 95%;
+    margin: 10px;
+}
+#Confirm-password{
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    width: 95%;
+    margin: 10px;
+}
+.policy{
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+form button{
+    margin: auto;
+    padding: 5px;
+}
+.signup-btn{
+    text-align: center;
+}
+.signup-btn button{
+    padding: 13px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    width: 80%;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.signup-btn button:hover{
+    background-color: aquamarine;
+    transition: 0.4s;
+}
+.already{
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+.copyright{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
